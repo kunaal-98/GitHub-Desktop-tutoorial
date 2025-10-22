@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sea Shore</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coastal Crest | Beach Paradise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>Welcome to <span>Coastal Crest! </span>
-        </h1>
-    </header>
-    <img src="https://images.unsplash.com/photo-1732466307218-7f31ba88d90c" height="400px" alt="">
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+  </nav>
 
-    <p>Welcome to your ultimate beach haven, where the gentle rhythm of waves meets the warm embrace of golden sands.
-        Here, every moment invites you to relax, explore, and connect with nature's serene beauty. Whether you're
-        dreaming of a perfect getaway, seeking tips for your beach travels, or simply longing to bask in the coastal
-        vibes, this is your sanctuary. Dive into our stories filled with sun-kissed adventures, vibrant marine life, and
-        the soothing soundscape of the ocean breeze. From hidden gems along the shorelines to expert advice on beach
-        essentials, our beach website is crafted to inspire your wanderlust and celebrate the timeless allure of coastal
-        life. Let us be your guide to making every beach moment unforgettable—where sun, sand, and sea create the
-        perfect harmony for your soul
+  <header id="home">
+    <h1>Welcome to <span>Coastal Crest!</span></h1>
+    <p class="tagline">Your gateway to the sun, sand, and sea.</p>
+    <div class="hero">
+      <img src="https://images.unsplash.com/photo-1732466307218-7f31ba88d90c" alt="Beach View">
+    </div>
+  </header>
+
+  <section id="about" class="about section fade-in-section">
+    <h2>About Coastal Crest</h2>
+    <p>
+      Welcome to your ultimate beach haven, where the gentle rhythm of waves meets the warm embrace of golden sands.
+      Here, every moment invites you to relax, explore, and connect with nature's serene beauty. Whether you're dreaming
+      of a perfect getaway, seeking tips for your beach travels, or simply longing to bask in the coastal vibes, this is
+      your sanctuary. Dive into our stories filled with sun-kissed adventures, vibrant marine life, and the soothing
+      soundscape of the ocean breeze. From hidden gems along the shorelines to expert advice on beach essentials, our beach
+      website is crafted to inspire your wanderlust and celebrate the timeless allure of coastal life. Let us be your guide
+      to making every beach moment unforgettable—where sun, sand, and sea create the perfect harmony for your soul.
     </p>
+  </section>
 
-    <footer>
-        <p>made with ❤️ by kunal</p>
-    </footer>
+  <section id="gallery" class="gallery section fade-in-section">
+    <h2>Gallery</h2>
+    <div class="cards">
+      <div class="card"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach 1"></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Beach 2"></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c" alt="Beach 3"></div>
+    </div>
+  </section>
 
+  <section id="contact" class="contact section fade-in-section">
+    <h2>Stay in Touch</h2>
+    <form class="subscribe-form">
+      <input type="email" placeholder="Your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by <strong>Kunal</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
