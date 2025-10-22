@@ -1,6 +1,7 @@
 h1 {
   font-size: 55px;
   font-weight: 600;
+    color: rgb(215, 105, 27);
 }
 p {
   font-size: 20px;
@@ -8,7 +9,4 @@ p {
 }
 img {
   size: 100%;
-}
-span{
-    background-color: #e97e31;
 }
